@@ -1,0 +1,30 @@
+
+    
+        * {
+          margin: 0px;
+        }
+        ::-webkit-scrollbar {
+          width: 0px;
+        }
+        a {
+          color: aliceblue;
+          display: block;
+          text-align: center;
+          padding: 15px;
+          background-color: rgb(13, 13, 14);
+          text-decoration: none;
+
+        }
+        a:hover {
+         background-color: rgb(53, 52, 52);
+        }
+        img {
+          width: 100vw;
+        }
+        
+        
+
+
+
+        
+        
