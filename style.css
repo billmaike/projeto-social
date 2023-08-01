@@ -13,18 +13,39 @@ body {
     background-repeat: no-repeat;
 
 } 
-p, a{
+section#social {
     text-align: right;
-   
-   
 }
+    
+
+section#social img{
+    
+    height: 50px; 
+    margin: 10px;
+    
+    
+    box-sizing: 1px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.685);
+    border-radius: 50px;   
+}
+section#social img:hover {
+    transform: translate(1px, 1px);
+}
+
 
 main {
     height: 100vh;
     
-
 }
-
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 263px;
+    height: 467px;
+    
+    
+}
 section#telefone {
     position: absolute;
     top: 50%;
